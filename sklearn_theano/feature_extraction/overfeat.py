@@ -5,7 +5,7 @@
 import os
 import theano
 # Required to avoid fuse errors... very strange
-theano.config.floatX = 'float32'
+# theano.config.floatX = 'float32'
 import zipfile
 import numpy as np
 from sklearn.base import BaseEstimator, TransformerMixin

@@ -7,8 +7,7 @@ import theano
 import numbers
 import numpy as np
 import theano.tensor as T
-from theano.tensor.signal.downsample import max_pool_2d
-
+from theano.tensor.signal.pool import max_pool_2d
 
 def _relu(x):
     return T.maximum(x, 0)
